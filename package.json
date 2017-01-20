@@ -2,9 +2,9 @@
   "name": "package",
   "version": "1.0.0",
   "description": "desc paquet",
-  "main": "firsttest.js",
+  "main": "exoproduis.js",
   "scripts": {
-    "test": "mocha firsttest.js"
+    "test": "mocha testexoprod.js"
   },
   "repository": {
     "type": "git",

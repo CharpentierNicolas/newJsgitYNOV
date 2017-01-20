@@ -20,4 +20,11 @@ describe('myWonderfulFunction', function() {
 		expect(result.countArticles).to.be.equal(1);
 		expect(result.countProducts).to.be.equal(1);
 	});
+
+	it('basket witn 2 differents products should return price of the price', function(){
+		var result = myWonderfulFunction(prices,['potato', 'apple']);
+		expect(result.price).to.be.equal(8);
+		expect(result.countArticles).to.be.equal(2);
+		expect(result.countProducts).to.be.equal(2);
+	});
 });

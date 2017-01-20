@@ -16,7 +16,17 @@ function myWonderfulFunction(prices, products) {
 			countArticles:1 ,
 			countProducts:1
 		};
+	} else if(products.length === 2) {
+		let product1 = products[0];
+		let product2 = products[1];
+		let price = prices[product1] + prices[product2];
+		return {
+			price: price, 
+			countArticles:2 ,
+			countProducts:2
+		};
 	} else {
+
 		return 'TO BE CONTINUED';
 	}
 
